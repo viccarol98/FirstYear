@@ -1,0 +1,201 @@
+@font-face {
+  font-family: 'tomatoes';
+  src: url('myfonts/tomatoes.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'cookie';
+  src: url('myfonts/cookie.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'autumm';
+  src: url('myfonts/autumm.ttf') format('truetype');
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Bungee&family=Bytesized&family=Caveat:wght@400..700&family=Cute+Font&family=Lobster&family=Pacifico&family=Patrick+Hand&family=Quicksand:wght@300..700&family=Sarala:wght@400;700&family=Tektur:wght@400..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+.foto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foto2 {
+  width: 50px;
+  height: auto;
+  
+}
+
+.foto .foto1{
+width: 60px;
+height: auto;
+
+}
+.fotomain {
+  width: 200px;
+
+
+}
+.fotomain1 {
+width: 200px;
+}
+.mainstory {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+  
+
+body {
+  background-image: url('pp.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.line1 {
+  display: grid;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'autumm', sans-serif;
+  color: #9caf88;
+ 
+}
+.line2 {
+  color: black;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: 'tomatoes';
+}
+
+.p3 {
+  display: grid;
+  padding: 24px;
+  justify-content: center;
+  font-family: serif;
+   border-top: 0.4px solid #9caf88;
+   margin-bottom: 48px;
+   color: #9caf88;
+   
+   
+}
+.p4 {
+  font-family:"tektur";
+  color: #7d7d7d;
+}
+.p5 {
+  font-family: 'tomatoes', sans-serif ;
+  justify-content: center;
+  color: black;
+  margin-top: 24px;
+ 
+  
+}
+.p6 {
+  display: grid;
+  padding: 18px;
+  justify-content: center;
+  border-top: 0.4px solid #9caf88;
+   margin-bottom: 48px;
+   font-family: 'autumm';
+   color: #9caf88
+   
+   
+}
+
+.gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px; 
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .gallery img {
+      width: 100%; 
+      max-width: 300px;
+      height: auto;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    .gallery img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.scrapbook img {
+   width: 100%; 
+      max-width: 1000px;
+      height: auto;
+      border-radius: 10px;
+      object-fit: cover;
+      padding: 40px;
+      
+}
+.scrapbook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  max-width: 1000px;
+  margin: 0% auto;
+}
+.bottomC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  margin: 0% auto;
+}
+.bottom {
+  align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #9caf88;
+    width: 180px;
+    height: 60px;
+    box-shadow: 4px 5px rgba( 0, 0, 0, 0.25);
+    border : none;
+    border-radius : 20px;
+    font-family : "cookie", sans-serif;
+    font-size : 24px;
+    color: #2F2325;
+    padding: 20px;
+    
+}
+.bottom:hover {
+    background-color:  rgba(236, 214, 196, 0.53)
+}
+.letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 40vh;
+  margin: 40px;
+  font-family: cursive;
+  color: #7d7d7d;
+
+}
+.carta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35vh;
+}
+.cute {
+  width: 200px;
+  
+}
+
+.end {
+  font-family: 'cookie';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
