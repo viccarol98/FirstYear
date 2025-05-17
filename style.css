@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'tomatoes';
-  src: url('MyFonts/tomatoes.ttf') format('truetype');
+  src: url('tomatoes.ttf') format('truetype');
 }
 @font-face {
   font-family: 'cookie';
-  src: url('MyFonts/cookie.ttf') format('truetype');
+  src: url('cookie.ttf') format('truetype');
 }
 @font-face {
   font-family: 'autumm';
-  src: url('MyFonts/autumm.ttf') format('truetype');
+  src: url('autumm.ttf') format('truetype');
 }
 
 
